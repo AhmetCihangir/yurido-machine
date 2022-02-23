@@ -8,11 +8,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "AIzaSyBmbHu2nx5UJ98650gElwH4Lbh8QZl_WVw",
-      appId: "1:709192516020:web:c08b30015a9bcf02f8f2e1",
-      messagingSenderId: "709192516020",
-      projectId: "hackathon-warn",
-      authDomain: "hackathon-warn.firebaseapp.com",
+
     ),
   );
 
